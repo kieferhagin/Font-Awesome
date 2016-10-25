@@ -2,18 +2,18 @@
 // -------------------------
 
 .#{$fa-css-prefix}-ul {
-  padding-left: 0;
-  margin-left: $fa-li-width;
-  list-style-type: none;
-  > li { position: relative; }
+  padding-left: 0 !important;
+  margin-left: $fa-li-width !important;
+  list-style-type: none !important;
+  > li { position: relative !important; }
 }
 .#{$fa-css-prefix}-li {
-  position: absolute;
-  left: -$fa-li-width;
-  width: $fa-li-width;
-  top: (2em / 14);
-  text-align: center;
+  position: absolute !important;
+  left: -$fa-li-width !important;
+  width: $fa-li-width !important;
+  top: (2em / 14) !important;
+  text-align: center !important;
   &.#{$fa-css-prefix}-lg {
-    left: -$fa-li-width + (4em / 14);
+    left: -$fa-li-width + (4em / 14) !important;
   }
 }

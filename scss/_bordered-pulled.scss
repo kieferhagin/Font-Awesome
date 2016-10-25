@@ -2,24 +2,24 @@
 // -------------------------
 
 .#{$fa-css-prefix}-border {
-  padding: .2em .25em .15em;
-  border: solid .08em $fa-border-color;
-  border-radius: .1em;
+  padding: .2em .25em .15em !important;
+  border: solid .08em $fa-border-color !important;
+  border-radius: .1em !important;
 }
 
-.#{$fa-css-prefix}-pull-left { float: left; }
-.#{$fa-css-prefix}-pull-right { float: right; }
+.#{$fa-css-prefix}-pull-left { float: left !important; }
+.#{$fa-css-prefix}-pull-right { float: right !important; }
 
 .#{$fa-css-prefix} {
-  &.#{$fa-css-prefix}-pull-left { margin-right: .3em; }
-  &.#{$fa-css-prefix}-pull-right { margin-left: .3em; }
+  &.#{$fa-css-prefix}-pull-left { margin-right: .3em !important; }
+  &.#{$fa-css-prefix}-pull-right { margin-left: .3em !important; }
 }
 
 /* Deprecated as of 4.4.0 */
-.pull-right { float: right; }
-.pull-left { float: left; }
+.pull-right { float: right !important; }
+.pull-left { float: left !important; }
 
 .#{$fa-css-prefix} {
-  &.pull-left { margin-right: .3em; }
-  &.pull-right { margin-left: .3em; }
+  &.pull-left { margin-right: .3em !important; }
+  &.pull-right { margin-left: .3em !important; }
 }
