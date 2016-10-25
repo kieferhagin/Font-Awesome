@@ -1,3 +1,6 @@
+This is a fork of the main Font Awesome repo. This fork only contains the SCSS files adds !important to every rule.
+This is primarily useful for widget apps that use a CSS reset.
+
 # [Font Awesome v4.7.0](http://fontawesome.io)
 ### The iconic font and CSS framework
 
